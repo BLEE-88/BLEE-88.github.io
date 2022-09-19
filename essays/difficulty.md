@@ -6,49 +6,12 @@ title: "The difficult things will always be difficult"
 date: 2016-02-06
 published: true
 labels:
-  - Engineering
+  - Essay
 ---
+<head>
+  <h1>E1: UI Basics Technical Essay</h1>
+</head>
 
-<img width="200px" class="rounded float-start pe-4" src="../img/difficulty/degree_difficulty.jpg">
-
-*Difficulty: a thing that is hard to accomplish, deal with, or understand.*
-
-One of my friends asked the question earlier last week -- why is it so hard to be an officer for the student branch? Why is so hard compared to working at my on-campus job? This question came after he struggled a little with bookkeeping for the student organization.
-
-Now I gave him the standard answer - being an officer of an organization requires that you manage your time between school and work. There isn't anyone telling you what to do. It's the answer any good mentor would give, and is mostly true.
-
-But the more I though about it, the more I wondered to myself...damn that's a really great question; it's one that deserves some more thought. Most people I think stop at the answer I gave previously - he obviously isn't managing his time properly.
-
-Here's what I think: the difficult things will always be difficult.
-
-## In the context of programming
-
-In the context of programming, this has always been true. The difficult problems have always been different, although changes in technology can change the landscape quite a bit. "Business" type applications are the things that come to mind for me. Those types of applications are usually coupled in some way with people ... and people are awfully hard to deal with!
-
-Consider that one of the most popular content management systems is also considered the most horrible - Wordpress. But really, is there anything that fills that need? If it was so easy in the first place, where is the solution? Where's the magic CMS that is designed well enough that everyone hops on the boat to use it?
-
-Some things are just difficult - building applications that humans use is hard, and will probably be hard for at least the near future.
-
-## In the context of engineering
-
-Ever hear people ragging on engineering companies for delivering late and way over budget? Well, some engineering jobs are really difficult, especially if the requirements and funding are undulating underneath you. Because of the nature of the problem, sometimes engineering firms require large amounts of engineers and workers, inviting further problems and delays.
-
-The Honolulu Rail project at home has become this sort of poster child of failure, budget overrun and overall incompetence in Hawaii. Well, working though regulatory boards and fiscal procedures in Hawaii seems like it's a mind bogglingly difficult job to do. Granted, there might be some fishy stuff going on, but I refuse to believe that everyone is involved for nefarious reasons.
-
-The problem of creating an unprecedented public transportation backbone on an island is difficult! I'm not sure we would have done it right, even if the best people were involved.
-
-## In the context of relationships
-
-So in the end, we realize that all engineering and programming is there for a reason - to serve human needs. Maybe that's why those things are difficult, because they both involve humans and are for humans.
-
-Relationships, regardless if they're romantic or not take work. Humans are fickle creatures and relationships can come and go with the wind. To properly maintain something over time requires work. Family takes work. Marriage takes work. We live to figure out what works and what doesn't and hope that as we move forward we're improving.
-
-Relationships have always been difficult, and by nature will continue to be so.
-
-## Okay!
-
-So back to the original premise; why is being one of the club officers so difficult?
-
-And the final answer - it's supposed to be difficult, and it's supposed to challenge you, just like everything else that humans do that is difficult: programming, engineering, engaging in relationships, pondering the universe, etc.
-
-Ultimately the question you should really ask yourself if something if particularly difficult is then "is it worth it"? That is something that is context specific and only you can answer yourself.
+<body>
+  BrowserHistory1 was very similar to the lab that we had worked on previously in class. This made it much easier for me to comprehend what was being asked because I had already done it before. This WOD was more time consuming because it had many steps, such as making multiple headers and linking them to external web pages. The thing that I had trouble with was creating the table of contents. Creating an itemized list for the sections was something foreign to me, so I had to watch the screencast for that. BrowserHistory2 was more confusing because the entire thing was something new. After reading the instructions and trying a little, I kept on getting stuck and having to restart. I had to go back to our readings about google fonts because I couldn’t figure out how we were supposed to get it to Open Sans. When I tried to autofill it in VSCode it kept defaulting to Sans Serif, so I just assumed that they are the same. After watching the screencast things became clearer, but I will have to review BrowserHistory2 when we start working on similar assignments. BrowserHistory3 was very abstract, I knew what was expected from the image, but not how I was going to get there. I had to watch the screencast very early on and even after watching it, it still took many tries to get the result I wanted. I found that you could skip the list-style-type step by putting the display inline after trying it a few times. I am not 100% sure how that works, but it did. After completing all three assignments, I have a better understanding of what we are expected to know for our future assignments, but I will definitely not be able to recite this information off the top of my head without more practice.
+</body>
