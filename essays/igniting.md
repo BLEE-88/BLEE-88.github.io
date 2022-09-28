@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "E3: Preparing for WODs Technical Essay"
 # All dates must be YYYY-MM-DD format!
-date: 2022-09-18
+date: 2022-09-27
 published: true
 labels:
   - Essay
