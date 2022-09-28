@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "E3: Preparing for WODs Technical Essay"
+title: <style>h1 {text-align: center;} "E3: Preparing for WODs Technical Essay"
 # All dates must be YYYY-MM-DD format!
 date: 2022-09-18
 published: true
@@ -14,7 +14,7 @@ labels:
 
 <p>1.	Provide a brief introduction to the WOD along with a link to this page for further details</p>
 
-<p>The previous WOD that I did was on <a href="https://dport96.github.io/ITM352/morea/060.expressions-operators/experience-preparing-for-WOD.html">Invoice2</a>. The goal of invoice2 was to use an if, elseif, else statement to create a line in a table that calculates shipping, and then adds it to the table. I would not say it was very difficult because it is exactly like the problem, we did in Lab7. Referring to invoice1, we started adding comments to our code. I think that this is something that Professor Kazman is trying to get us to familiarize ourselves with.</p>
+<p>The previous WOD that I did was on Invoice2. The goal of invoice2 was to use an if, elseif, else statement to create a line in a table that calculates shipping, and then adds it to the table. I would not say it was very difficult because it is exactly like the problem, we did in Lab7. Referring to invoice1, we started adding comments to our code. I think that this is something that Professor Kazman is trying to get us to familiarize ourselves with.</p>
 
 <p>2.	Discuss your experiences in performing the WOD. What worked well, what did you stumble on or slowed you down.</p>
 
