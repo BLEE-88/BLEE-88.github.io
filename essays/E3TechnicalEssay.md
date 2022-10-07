@@ -12,7 +12,7 @@ labels:
 
 <body>
 
-<p<Provide a brief introduction to the WOD along with a <a href="https://dport96.github.io/ITM352/morea/060.expressions-operators/experience-preparing-for-WOD.html">link to this page</a> for further details</p>
+<p>Provide a brief introduction to the WOD along with a <a href="https://dport96.github.io/ITM352/morea/060.expressions-operators/experience-preparing-for-WOD.html">link to this page</a> for further details</p>
 
 <p>Preparing for the WODs in E3: Technical essay was much easier than Browsers one through three because they were very similar to the questions we went over in the labs. The average number of attempts also went down for this set of WODs also went down due to this. The WOD I had the most trouble with was probably invoice2 because there were many repetitive steps that I glossed over because of carelessness. </p>
  
