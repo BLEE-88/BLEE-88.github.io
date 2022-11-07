@@ -1,99 +1,31 @@
 ---
 layout: essay
 type: essay
-title: "Smart Questions, Good Answers"
+title: "E3: Preparing for WODs Technical Essay"
 # All dates must be YYYY-MM-DD format!
-date: 2015-09-08
-published: true
+date: 2022-09-27
+published: false
 labels:
-  - Questions
-  - Answers
-  - StackOverflow
+  - Essay
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
 
-##abcd
+<body>
 
-I’ve had instructors address a whole class and say, “There’s no such thing as a stupid question.” I now know that is in fact not true because I’ve challenged the statement and received the appropriate dumb-stricken, annoyed look. There are definitely stupid questions, and along with that, usually unhelpful answers. Though we all might be guilty of being callous and making people victim to our poorly formed questions, there are steps we can take to ask smarter questions that hopefully don’t illicit the dreaded “rtfm” or “stfw” response.
+<p>Provide a brief introduction to the WOD along with a <a href="https://dport96.github.io/ITM352/morea/060.expressions-operators/experience-preparing-for-WOD.html">link to this page</a> for further details</p>
 
-## What’s a smart question?
-
-Stack Overflow, a question and answer site for programmers, is a great resource for anyone who may have issues with code or who may simply want to learn new or different methods of doing something. There I found examples of good questions and bad questions, which could probably be improved.
-
-In the following example, we examine the components of a decent question. In this case, the asker is trying to figure out a way to get the date of the previous month in Python.
-
-```
-Q: python date of the previous month
-
-I am trying to get the date of the previous month with python. Here is what i've tried:
-
-str( time.strftime('%Y') ) + str( int(time.strftime('%m'))-1 )
-
-However, this way is bad for 2 reasons: First it returns 20122 for the February of 2012 (instead of 201202) 
-and secondly it will return 0 instead of 12 on January.
-
-I have solved this trouble in bash with:
-
-echo $(date -d"3 month ago" "+%G%m%d")
-
-I think that if bash has a built-in way for this purpose, then python, much more equipped, should provide something 
-better than forcing writing one's own script to achieve this goal. Of course i could do something like:
-
-if int(time.strftime('%m')) == 1:
-    return '12'
-else:
-    if int(time.strftime('%m')) < 10:
-        return '0'+str(time.strftime('%m')-1)
-    else:
-        return str(time.strftime('%m') -1)
-        
-I have not tested this code and i don't want to use it anyway (unless I can't find any other way:/)
-
-Thanks for your help!
-```
-
-While the heading of his question could be better, it does convey what he’s trying to figure out. Usually something as brief as “python date of previous month” is what other users would enter in as search terms on Google, making it easily found. Another good thing about the question is that it’s not just a question. The asker shows what he or she has done and that he or she has put in some effort to answer the question. And while it may not be as important as the question itself, the asker shows courtesy, which does increase the chance of getting an answer.
-
-```
-A: datetime and the datetime.timedelta classes are your friend.
-
-1. find today
-2. use that to find the first day of this month.
-3. use timedelta to backup a single day, to the last day of the previous month.
-4. print the YYYYMM string you're looking for.
-
-Like this:
-
- >>> import datetime
- >>> today = datetime.date.today()
- >>> first = datetime.date(day=1, month=today.month, year=today.year)
- >>> lastMonth = first - datetime.timedelta(days=1)
- >>> print lastMonth.strftime("%Y%m")
- 201202
- >>>
-
-```
+<p>Preparing for the WODs in E3: Technical essay was much easier than Browsers one through three because they were very similar to the questions we went over in the labs. The average number of attempts also went down for this set of WODs also went down due to this. The WOD I had the most trouble with was probably invoice2 because there were many repetitive steps that I glossed over because of carelessness. </p>
  
-The asker received six possible answers, and he or she was successful in inciting discussion from multiple users. The answers themselves were clear and were devoid of the rumored sarcasm and hostility of “hackers.” Since I myself have referenced this page and found it useful, I can confidently say that it is a good question.
+<p>Browserhistory6 was a continuation of the Browserhistory wod group, we changed our navbar into input type buttons and added an onmouseover event that displayed an image of that browser. I had trouble getting the mouseover event to work, but through debugging, I found that I forgot to remove a div. This was the first time I used the browser console to fix code.</p>
 
-## The foolproof way to get ignored.
+<p> SmartPhoneProducts with variables was testing our ability to replace previous information using document.write and setting variables to go with it in a JS file. This was our first time loading and executing javascript from another file. </p>
+  
+<p> Invoice1 was simple because we set variables that would calculate different totals using basic arithmetic like multiplication and addition. This WOD made it easy for us to miss a step because there were so many variables we had to edit to display what we want. Using document.write to put in our calculated variables required us to use tofixed(2) which rounded our numbers to two variables.</p>
 
-While there are decent questions that benefit everyone, there are those one can ask to create an entirely different effect. In the following example, a user asks how he would, in short, create a desktop application with Facebook.
+<p>The goal of invoice2 was to use an if, elseif, else statement to create a line in a table that calculates shipping, and then adds it to the table. I would not say it was very difficult because it is exactly like the problem, we did in Lab7. Referring to invoice1, we started adding comments to our code. I think that this is something that Professor Kazman is trying to get us to familiarize ourselves with.</p>
 
-```
-Q: Facebook Desktop Notifier
+<p>Smartphoneproducts2 was about creating a loop to display the various information in our javascript. We used "i" in increments to display the information for example, name1 would become name2 since we used eval() to turn the strings into the value we want. This one was straight-forward because it was almost the same as our in class lab on loops.</p>
 
-I am a beginner programmer that have never used anything other than what's included in a language.
+<p>I will stick to my method of preparing for WODs, which is reviewing the lab before attempting it for now. I think my formula works for now, but if I had to do something different, I would try to worry less about the amount of time I take to finish the WODs. I found that I ended up losing points because of errors in my code because I would rush to finish the WOD.</p>
 
-I am trying to create a desktop application that notifies me anytime I get an update onfacebook. 
-How should go about doing this? Thanks in advance.
-
-edit Sorry I was not clear. Is there any way to make a DESKTOP application with facebook?
-```
-
-A simple “yes” would have answered the question, but we know that’s not the sort of answer he or she is looking for. Fortunately, someone kindly responded with a link to Facebook’s developer website. The asker should have done more research on his or her potential project. Then further down the road, he or she could have asked more specific and detailed questions that wouldn’t require a thousand-paged response for a sufficient answer.
-
-## Conclusion
-
-When we rely on others’ generosity and expertise to provide answers to our questions, it should hold that the question we ask should be one that leads to efficient and effective help that not only benefits us, but also the people we ask and others who might ask the same question in the future. Thus, if you have a question… make it a smart one! Asking questions may not always get you the best answer, but asking them in a way that will make others want to answer them will increase the success of finding a good solution and make it a positive experience on all sides.
+</body>
