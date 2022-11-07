@@ -1,9 +1,9 @@
 ---
 layout: essay
 type: essay
-title: "E3: Preparing for WODs Technical Essay"
+title: "E4: Progress in Programming Report"
 # All dates must be YYYY-MM-DD format!
-date: 2022-09-27
+date: 2022-11=-07
 published: true
 labels:
   - Essay
