@@ -10,7 +10,7 @@ labels:
 ---
 
 <body>
-<p>Provide a brief introduction to the assignment along with a link to this page for further details</p>
+<p>Provide a brief introduction to the assignment along with a <a href="[url](https://dport96.github.io/ITM352/morea/150.Assignment2/experience-Assignment2_retrospective.html)">text</a> to this page for further details</p>
   
 <p>Assignment 2 was about being able to create user login and registrations so that user information could be stored on the server. We would also have to be able to pass order information through the login and registration to an invoice. Some people had different independent requirements, but mine was IR5 which was a little bit confusing to me, so I was not able to get it done.</p>
 <div>
