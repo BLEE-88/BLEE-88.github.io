@@ -4,7 +4,7 @@ type: essay
 title: "E5: Reflecting on Assignment 2"
 # All dates must be YYYY-MM-DD format!
 date: 2022-11-24
-published: false
+published: true
 labels:
   - Essay
 ---
