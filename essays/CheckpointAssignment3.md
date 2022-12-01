@@ -22,10 +22,18 @@ I will have a cart on a separate page that doubles as an invoice and using sessi
 
 Explain specifically how you will use sessions to manage your shopping cart. In particular, what shopping cart data will be stored in the session, what data format will be used (NOT what data type, but the format like with the data format used for your registration data). Use code examples showing what data structures (such as arrays and their objects) you will use to manage the shopping cart data and how they will be used in a session.
   
-I would like to store product quantities, images, and favorited products in the session. The session will contain a key  from our products json file and then 
+I would like to store product quantities, images, and favorited products in the session. The session will contain a key that matches a product from our json file and then adds it to our cart. This code from Assignment 3 is what I will use to generate the form and then send it to the server which should add it to the cart in a session. 
+  ![Capture](https://user-images.githubusercontent.com/112213087/204959443-2fcb17cf-63b4-4d48-b594-4f02b0aa81fc.PNG)
+
   
 How will you avoid access to your application when the user has not logged in or registered? What are the particular security concerns you must address?
+I have not reached this point yet, but I think that we will search if a cookie exists with the user_name when a user logs in. If there is no cookie with user_name then we do not allow them to access that page. For this assignment we have to destroy the cookies on logout to prevent someone from accessing the information.
+  
 Upon a successful login, how do you provide personalization in your UI? Explain how you did or will do this (paste code if necessary)
+I want to add a button that changes the theme from light/dark and use a function to save it in a cookie, I have also seen many people using local storage, but this is a problem for the future.
+  
 If you are working with partners, how will you split up the work in your team so that you are working in parallel as effectively as possible? That is, who is doing what and when?
+  Work by myself
 How are you approaching Assignment 3 differently than Assignment 2?
+Assignment 3 seems much harder than 2 because there are so many new concepts that we have not learned so I will be using more online resources and trying to incorporate the code examples because there was a fact that said we could get a fully functioning assignment 3 using just the examples and labs.
 </body>
