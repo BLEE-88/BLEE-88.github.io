@@ -23,7 +23,8 @@ I will have a cart on a separate page that doubles as an invoice and using sessi
 Explain specifically how you will use sessions to manage your shopping cart. In particular, what shopping cart data will be stored in the session, what data format will be used (NOT what data type, but the format like with the data format used for your registration data). Use code examples showing what data structures (such as arrays and their objects) you will use to manage the shopping cart data and how they will be used in a session.
   
 I would like to store product quantities, images, and favorited products in the session. The session will contain a key that matches a product from our json file and then adds it to our cart. This code from Assignment 3 is what I will use to generate the form and then send it to the server which should add it to the cart in a session. 
-  ![Capture](https://user-images.githubusercontent.com/112213087/204959443-2fcb17cf-63b4-4d48-b594-4f02b0aa81fc.PNG)
+
+![Capture](https://user-images.githubusercontent.com/112213087/204968907-5dc47f1f-d910-4a3a-b26b-fc871542c6b5.PNG)
 
   
 How will you avoid access to your application when the user has not logged in or registered? What are the particular security concerns you must address?
