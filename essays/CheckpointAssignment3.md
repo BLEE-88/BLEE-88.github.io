@@ -24,7 +24,7 @@ Explain specifically how you will use sessions to manage your shopping cart. In 
   
 I would like to store product quantities, images, and favorited products in the session. The session will contain a key that matches a product from our json file and then adds it to our cart. This code from Assignment 3 is what I will use to generate the form and then send it to the server which should add it to the cart in a session. 
 
-(https://user-images.githubusercontent.com/112213087/204968907-5dc47f1f-d910-4a3a-b26b-fc871542c6b5.PNG)
+![Capture](https://user-images.githubusercontent.com/112213087/204969728-698a2c3a-5eeb-4d59-bc95-5fe8902c244e.PNG)
 
   
 How will you avoid access to your application when the user has not logged in or registered? What are the particular security concerns you must address?
