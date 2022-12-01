@@ -4,30 +4,38 @@ type: essay
 title: "E1: UI Basics Technical Essay"
 # All dates must be YYYY-MM-DD format!
 date: 2022-09-18
-published: false
+published: true
 labels:
   - Essay
 ---
 
 
 <body>
+  
+Show what each page will look like. The pages do not have to be “functional” but the design should clear. Here is an example PPT prototype
+  
+<img width="950" alt="Screen Shot 2022-11-30 at 12 48 52 PM" src="https://user-images.githubusercontent.com/112213087/204924867-4748b16c-edcc-4c44-be2b-af1e336acaa8.png">
 
-<p>BrowserHistory1 was about creating sections with information in them. We then had to create links in a table of contents that directed to a corresponding section. Lastly, we attached logos for each section. The new thing that I learned in this WOD was creating lists and linking them to text. Browserhistory2 was about styling our html page using css. Most of the css was straightforward but figuring out how to make the image inline with the text and getting the font to work was what I had trouble with. Browserhistory3 was about re-organizing the sections into columns and adding more css, to make everything fit together.</p>
 
+Describe your design for your site’s shopping cart. That is, will it be a separate page that the user can view and edit, or will it be integrated into the product pages? If so, describe in detail how this will work on your site. Provide several examples of using the cart.
+  
+I will have a cart on a separate page that doubles as an invoice and using sessions I will store cart session in a product key from products_display and then use a get on the server to request the key into quantities that then gets added to the cart. For example, selecting 10 hibuscus from the flower page will add 10 flowers to the cart which will display in the top corner with "you have 10 items in your cart". As you continue shopping for items this number should continue going up. Hitting the make purchase button in the cart should then finalize your order and send you an email with documentation of your purchase.
+
+Explain specifically how you will use sessions to manage your shopping cart. In particular, what shopping cart data will be stored in the session, what data format will be used (NOT what data type, but the format like with the data format used for your registration data). Use code examples showing what data structures (such as arrays and their objects) you will use to manage the shopping cart data and how they will be used in a session.
+  
+I would like to store product quantities, images, and favorited products in the session. The session will contain a key that matches a product from our json file and then adds it to our cart. This code from Assignment 3 is what I will use to generate the form and then send it to the server which should add it to the cart in a session. 
+  ![Capture](https://user-images.githubusercontent.com/112213087/204959443-2fcb17cf-63b4-4d48-b594-4f02b0aa81fc.PNG)
 
   
-<p>BrowserHistory1 was very similar to the lab that we had worked on previously in class. This made it much easier for me to comprehend what was being asked because I had already done it before. This WOD was more time consuming because it had many steps, such as making multiple headers and linking them to external web pages. The thing that I had trouble with was creating the table of contents. Creating an itemized list for the sections was something foreign to me, so I had to watch the screencast for that.</p>
-
-
+How will you avoid access to your application when the user has not logged in or registered? What are the particular security concerns you must address?
+I have not reached this point yet, but I think that we will search if a cookie exists with the user_name when a user logs in. If there is no cookie with user_name then we do not allow them to access that page. For this assignment we have to destroy the cookies on logout to prevent someone from accessing the information.
   
-<p>BrowserHistory2 was more confusing because the entire thing was something new. After reading the instructions and trying a little, I kept on getting stuck and having to restart. I had to go back to our readings about google fonts because I couldn’t figure out how we were supposed to get it to Open Sans. When I tried to autofill it in VSCode it kept defaulting to Sans Serif, so I just assumed that they are the same. After watching the screencast things became clearer, but I will have to review BrowserHistory2 when we start working on similar assignments.</p>
-
+Upon a successful login, how do you provide personalization in your UI? Explain how you did or will do this (paste code if necessary)
+I want to add a button that changes the theme from light/dark and use a function to save it in a cookie, I have also seen many people using local storage, but this is a problem for the future.
   
-  
-<p>BrowserHistory3 was very abstract, I knew what was expected from the image, but not how I was going to get there. I had to watch the screencast very early on and even after watching it, it still took many tries to get the result I wanted. I found that you could skip the list-style-type step by putting the display inline after trying it a few times. I am not 100% sure how that works, but it did. After completing all three assignments, I have a better understanding of what we are expected to know for our future assignments, but I will not be able to recite this information off the top of my head without more practice.</p>
-
-
-  
-<p>To do better on future WODs, I will go back to the previous labs to get an idea on what it is being asked. For example, Browserhistory3 was very vague on its instructions and required me to watch the screencast and look back on our readings to understand what it was even asking for. I also learned from Professor Kazman that you can inspect the page to debug the errors before you use your other resources. I used this find out that I forgot to put id=”imgbox” in a divider. That’s pretty much all I would do to prepare for WODs, but as we continue doing these I might learn new things.</p>
-
+If you are working with partners, how will you split up the work in your team so that you are working in parallel as effectively as possible? That is, who is doing what and when?
+  Work by myself
+How are you approaching Assignment 3 differently than Assignment 2?
+Assignment 3 seems much harder than 2 because there are so many new concepts that we have not learned so I will be using more online resources and trying to incorporate the code examples because there was a fact that said we could get a fully functioning assignment 3 using just the examples and labs.
 </body>
+
